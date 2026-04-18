@@ -1,0 +1,16 @@
+{
+  "name": "photo-sharing-backend",
+  "version": "1.0.0",
+  "description": "Backend for Photo Sharing App",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "load": "node ./db/dbLoad.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.4.2",
+    "express": "^4.18.2",
+    "mongoose": "^9.4.1"
+  }
+}
